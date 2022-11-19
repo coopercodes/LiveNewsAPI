@@ -1,0 +1,23 @@
+{
+  "main": "server.ts",
+  "scripts" : {
+    "start": "nodemon server.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.1.1",
+    "@graphql-tools/schema": "^9.0.10",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-ws": "^5.11.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/ws": "^8.5.3"
+  }
+}
